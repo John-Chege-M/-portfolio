@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">J<span>.M</span></div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">J<span>.M</span></div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section_pic-container">
+            <img src="me2.jpg" >
+            </div>
+            <div class="section_text">
+                <p class="section__text__p1">Hello!, I'm</p>
+                <h1 class="title1">John C Maina</h1>
+                <p class="section__text__p2">Certified Data Analyst</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('John_Chege__CV.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='#contacts'">
+                        Contact Info</button>
+                </div>
+                <div id="socials-containers">
+                    <img src="linkedin.png" alt="linked" class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/john-chege-maina/'">
+                    <img src="github.png" alt="github" class="icon" 
+                    onclick="location.href='https://github.com/John-Chege-M'">
+                </div>
+            </div>            
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get to know more</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="about_pic-container">
+                    <img src="me4.jpg" alt="profile" class="about-pic">                
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="experience.png" alt="experience" class="icon">
+                            <h3>Experience</h3>
+                            <p>1+ year <br/> Data Analyst</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="education.png" alt="experience" class="icon">
+                            <h3>Education</h3>
+                            <p>Bsc<br/>Mathematics and computer science <br/>Major Statistics</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            Greetings! I'm John Chege Maina, a recent graduate with expertise in statistics and data analysis, 
+                            holding a bachelor's degree in Mathematics and Computer Science from Murang’a University of Technology. 
+                            <br>My academic journey has cultivated a strong foundation in statistical methodologies, 
+                            programming languages such as Python, and data manipulation. 
+                            Through hands-on projects, I've honed my skills in deriving meaningful insights from intricate datasets. 
+                            Eager to contribute my analytical proficiency to real-world challenges, 
+                            I am enthusiastic about leveraging data-driven approaches for informed decision-making and 
+                            continuous learning in the dynamic field of statistics and data analysis.</p>
+                    </div>
+
+                </div>
+            </div>
+            <p class="next" onclick="location.href='#experience'">Next Page</p>            
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Data Analysis</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>SPSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>Ms Excel</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>Machine Learning</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>Sentiment Analysis</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>                         
+                        </div>
+                        
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Data Visualization</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>PowerBI</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>Tableau</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>Ms Excel</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>Google Analytics</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>                                                      
+                        </div>                        
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Databases</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>MsSQL Server</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>MySQL</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article> 
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>Postgre SQL</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>Oracle DB</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="icon2.png" alt="experience-icon" class="icon2">
+                                <div>
+                                    <h3>SQLite</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>                                                      
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+            <p class="next" onclick="location.href='#projects'">Next Page</p>          
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="obesity.jpg" alt="obesity" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Obesity Predictor</h2>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2" onclick="location.href='https://obesity-prediction-znymune5rxlgiueqz566ze.streamlit.app/'">
+                                Github</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="seg.png" alt="obesity" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Customer Segmentation</h2>
+                        
+                        <div class="btn-container">
+                            <button class="btn btn-color-2" onclick="location.href='https://customer-segmentation-8nwchwyqt9lk4u6nmy2q6y.streamlit.app/'">
+                                Github</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="laptop.jpg" alt="obesity" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Laptop Price Preditor</h2>
+                        
+                        <div class="btn-container">
+                            <button class="btn btn-color-2" onclick="location.href='https://laptoppricepredictionapp-6korpce4k4zbappobwdqgnp.streamlit.app/'">
+                                Github</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="cars.jpg" alt="obesity" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Car Price Predictor</h2>
+                        
+                        <div class="btn-container">
+                            <button class="btn btn-color-2" onclick="location.href='https://carpricepredictions-ga7mzpzckk4s4wwdtet6nz.streamlit.app/'">
+                                Github</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="next" onclick="location.href='#contacts'">Next Page</p> 
+        </section>
+        <section id="contacts">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="email1.png" alt="mail" class="contact-icon">
+                    <p><a href="mailto:jcmaina400@gmail.com">jcmaina400@gmail.com</a></p>
+                </div>
+                
+                <div class="contact-info-container">
+                    <img src="linkedin.png" alt="mail" class="contact-icon">
+                    <p><a href="https://www.linkedin.com/in/john-chege-maina/">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>&#169; 2024 John Maina. All rights reserved.</p>
+            <p>Privacy policy</p>
+        </footer>
+    </body>
+</html>
